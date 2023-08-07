@@ -1,0 +1,283 @@
+body {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    min-width: 100%;
+    position: relative;
+}
+
+.wall {
+    width: 100%;
+    height: 84px;
+    flex-shrink: 0;
+    background: #FFCE00;
+    position: relative; /* 추가 */
+    z-index: 1;
+}
+
+.side {
+    margin-top: 192px;
+    margin-right: 600px;
+    width: 145px;
+    height: 368px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #F6F6F6;
+    position: absolute;   /*이부분 수정하면 따라 내려옴*/
+    
+}
+
+.sideline {
+    margin-top: 30px;
+    width: 93px;
+    border: thin solid;
+    color: #D9D9D9;
+}
+
+.select {
+    margin-top: 35px;
+    margin-left: 58px;
+    width: 30px;
+    height: 30px;
+}
+
+.text {
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+.window {
+    min-height: 130vh;
+    width: 430px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.backbox{
+    background: #FFCE00;
+    width: 430px;
+    height: 84px;
+    position: absolute;
+    top: 0; /* 추가 */
+    left: 50%; /* 추가 */
+    transform: translateX(-50%); /* 추가 */
+    z-index: 2; /* 추가 */
+  }
+
+.my {
+    position: absolute;
+    top: 31px;
+    left: 46px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1px;
+    color: #ffffff;
+}
+
+.back {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 23px;
+    width: 9px;
+    height: 9px;
+    flex-shrink: 0;
+}
+
+.plus {
+    background-color: #FFCE00;
+    font-size: 13px;
+    font-weight: bolder;
+    text-align: center;
+    
+    border-radius: 5px;
+    height: 20px;
+    width: 30px;
+    margin-top: 114px;
+    margin-left: 300px;
+    position: absolute;
+}
+
+.pic {
+    background-color: #D9D9D9;
+    border-radius: 52px;
+    height: 104px;
+    width: 104px;
+    margin-top: 127px;
+    position: absolute;
+}
+
+.title{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 236px;
+    position: absolute;
+}
+
+.title > .where {
+    margin-top: -15px;
+    color: #C7C7C7;
+    text-align: center;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.info {
+    text-align: center;
+    margin-top: 328px;
+    position:absolute;
+}
+
+.img1 {
+    width: 37px;
+    height: 37px;
+    border-radius: 50px;
+}
+
+table {
+    border-collapse: separate;
+}
+table td {
+    width: 120px;
+}
+
+.btn1 {
+    margin-top: 470px;
+    color: white;
+    font-size: 20px;
+    background: #FFCE00;
+    width: 330px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #FFCE00;
+    position: absolute;
+}
+
+.btn2 {
+    margin-top: 525px;
+    color: #FFCE00;
+    font-size: 20px;
+    background: #FFFFFF;
+    width: 330px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #FFCE00;
+    position: absolute;
+}
+
+.sun {
+    text-align: center;
+    color: #D9D9D9;
+    border: thin solid;
+    width: 400px;
+    margin-top: 610px;
+    position: absolute;
+}
+
+.set {
+    color: #191919;
+    margin-left: -300px;
+    margin-top: 650px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+}
+
+.menu {
+    background-color: #F6F6F6;
+    margin-top: 690px;
+    width: 384px;
+    height: 410px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    position: absolute;
+    
+}
+
+.content1 {
+    margin-top: 15px;
+    margin-left: 29px;
+    color: #191919;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.6px;
+}
+
+.check1 {
+    color: white;
+    margin-right: 29px;
+    float: right;
+    width: 50px;
+    height: 19px;
+    flex-shrink: 0;
+    border: 1px solid #FFCE00;
+    border-radius: 40px;
+    background: #FFCE00;
+}
+
+.check2 {
+    color: #FFCE00;
+    margin-right: 29px;
+    margin-bottom: 13px;
+    float: right;
+    width: 75px;
+    height: 19px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 1px solid #FFCE00;
+}
+
+.nanugi {
+    margin-top: 15px;
+    width: 348px;
+    opacity: 0.5;
+    color: #B9B9B9;
+    border: thin solid;
+    
+}
+
+.map {
+    margin-top: 15px;
+    width: 326px;
+    height: 142px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.80);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.line2 {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}*/
+
+
